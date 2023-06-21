@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/earlyaccess/kokoro.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="logo.png" type="icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Daily and Event</title>
+  </head>
+
+  <body>
+    <audio id="adventure" src="sounds/adventure.mp3"></audio>
+    <audio id="birthday" src="sounds/birthday.mp3"></audio>
+    <audio id="camp" src="sounds/camp.mp3"></audio>
+    <audio id="concert" src="sounds/concert.mp3"></audio>
+    <audio id="dream" src="sounds/dream.mp3"></audio>
+    <audio id="festival" src="sounds/festival.mp3"></audio>
+    <audio id="fishing" src="sounds/fishing.mp3"></audio>
+    <audio id="holiday" src="sounds/holiday.mp3"></audio>
+    <audio id="job" src="sounds/job.mp3"></audio>
+    <audio id="movie" src="sounds/movie.mp3"></audio>
+    <audio id="party" src="sounds/party.mp3"></audio>
+    <audio id="picnic" src="sounds/picnic.mp3"></audio>
+    <audio id="picture" src="sounds/picture.mp3"></audio>
+    <audio id="song" src="sounds/song.mp3"></audio>
+    <audio id="today" src="sounds/today.mp3"></audio>
+    <audio id="tomorrow" src="sounds/tomorrow.mp3"></audio>
+    <audio id="yesterday" src="sounds/yesterday.mp3"></audio>
+
+    <h1>daily and event</h1>
+    <div class="container">
+      <!-- Adventure -->
+      <div class="text">
+        <h3 class="text-title">Adventure</h3>
+        <a onclick="document.getElementById('adventure').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1542359649-31e03cd4d909?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+          />
+          <p class="img__description">ぼうけん</p>
+        </div>
+      </div>
+      <!-- Adventure end -->
+
+      <!-- Birthday -->
+      <div class="text">
+        <h3 class="text-title">Birthday</h3>
+        <a onclick="document.getElementById('birthday').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1464349153735-7db50ed83c84?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=964&q=80"
+          />
+          <p class="img__description">たんじょうび</p>
+        </div>
+      </div>
+      <!-- Birthday end -->
+
+      <!-- Camp -->
+      <div class="text">
+        <h3 class="text-title">Camp</h3>
+        <a onclick="document.getElementById('camp').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1487730116645-74489c95b41b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">キャンプ</p>
+        </div>
+      </div>
+      <!-- Camp end -->
+
+      <!-- Concert -->
+      <div class="text">
+        <h3 class="text-title">Concert</h3>
+        <a onclick="document.getElementById('concert').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1583795484071-3c453e3a7c71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80"
+          />
+          <p class="img__description">コンサート</p>
+        </div>
+      </div>
+      <!-- Concert end -->
+
+      <!-- Dream -->
+      <div class="text">
+        <h3 class="text-title">Dream</h3>
+        <a onclick="document.getElementById('dream').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/11/dreamcatcher.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80"
+          />
+          <p class="img__description">ゆめ</p>
+        </div>
+      </div>
+      <!-- Dream end -->
+
+      <!-- Festival -->
+      <div class="text">
+        <h3 class="text-title">Festival</h3>
+        <a onclick="document.getElementById('festival').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1652584354050-4d313f493cfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">まつり</p>
+        </div>
+      </div>
+
+      <!-- Festival end -->
+
+      <!-- Fishing -->
+      <div class="text">
+        <h3 class="text-title">Fishing</h3>
+        <a onclick="document.getElementById('fishing').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1545450660-3378a7f3a364?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">つり</p>
+        </div>
+      </div>
+      <!-- Fishing end -->
+
+      <!-- Holiday -->
+      <div class="text">
+        <h3 class="text-title">Holiday</h3>
+        <a onclick="document.getElementById('holiday').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1519338381761-c7523edc1f46?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=977&q=80"
+          />
+          <p class="img__description">きゅうか</p>
+        </div>
+      </div>
+      <!-- Holiday end -->
+
+      <!-- Job -->
+      <div class="text">
+        <h3 class="text-title">Job</h3>
+        <a onclick="document.getElementById('job').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80"
+          />
+          <p class="img__description">しごと</p>
+        </div>
+      </div>
+      <!-- Job end -->
+
+      <!-- Movie -->
+      <div class="text">
+        <h3 class="text-title">Movie</h3>
+        <a onclick="document.getElementById('movie').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1485095329183-d0797cdc5676?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">えいが</p>
+        </div>
+      </div>
+      <!-- Movie end -->
+
+      <!-- Party -->
+      <div class="text">
+        <h3 class="text-title">Party</h3>
+        <a onclick="document.getElementById('party').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1602631985686-1bb0e6a8696e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">パーティー</p>
+        </div>
+      </div>
+      <!-- Party end -->
+
+      <!-- Picnic -->
+      <div class="text">
+        <h3 class="text-title">Picnic</h3>
+        <a onclick="document.getElementById('picnic').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1623944889288-cd147dbb517c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">ピクニック</p>
+        </div>
+      </div>
+      <!-- Picnic end -->
+
+      <!-- Picture -->
+      <div class="text">
+        <h3 class="text-title">Picture</h3>
+        <a onclick="document.getElementById('picture').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1523698120758-030a38a90d16?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=872&q=80"
+          />
+          <p class="img__description">しゃしん</p>
+        </div>
+      </div>
+      <!-- Picture end -->
+
+      <!-- Song -->
+      <div class="text">
+        <h3 class="text-title">Song</h3>
+        <a onclick="document.getElementById('song').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1483744463508-8680c28a0bbf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">うた</p>
+        </div>
+      </div>
+      <!-- Song end -->
+
+      <!-- Today -->
+      <div class="text">
+        <h3 class="text-title">Today</h3>
+        <a onclick="document.getElementById('today').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.pexels.com/photos/13092778/pexels-photo-13092778.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          />
+          <p class="img__description">きょう</p>
+        </div>
+      </div>
+      <!-- Today end -->
+
+      <!-- Tomorrow -->
+      <div class="text">
+        <h3 class="text-title">Tomorrow</h3>
+        <a onclick="document.getElementById('tomorrow').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1557426575-6e9ea75ef57a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">あす</p>
+        </div>
+      </div>
+      <!-- Tomorrow end -->
+
+      <!-- Yesterday -->
+      <div class="text">
+        <h3 class="text-title">Yesterday</h3>
+        <a onclick="document.getElementById('yesterday').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1607523751915-5291fab91551?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+          />
+          <p class="img__description">きのう</p>
+        </div>
+      </div>
+      <!-- Yesterday end -->
+    </div>
+
+    <!-- container end -->
+    <script src="script.js"></script>
+  </body>
+</html>
